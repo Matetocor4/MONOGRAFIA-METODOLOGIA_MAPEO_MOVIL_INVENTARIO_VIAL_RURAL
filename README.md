@@ -68,7 +68,7 @@ Colombia tiene **142,284 km** de vías terciarias (68% de la red nacional):
 5. ENTREGA (3d)           → Geodatabase + mapas + dashboard
 ```
 
-### Capas Generadas (SINC-Compliant)
+### Capas Generadas 
 
 | Capa | Tipo | Cantidad | Descripción |
 |------|------|----------|-------------|
@@ -176,8 +176,9 @@ mobile-mapping-rural-roads/
 ## 📖 Documentación
 
 - 🎤 [Presentación](https://gamma.app/docs/Metodologia-de-Mapeo-Movil-para-Inventario-Vial-Rural-1msd8n0fjkpzld4?mode=doc)
-- 🌐 [Dashboard Interactivo]([DASHBOARD_LA_PALMA_ARCGIS_ONLINE](https://www.arcgis.com/apps/dashboards/f1946c760ee34d2a9dd63442c593cfdb))
+- 🌐 [Dashboard Interactivo]([DASHBOARD_LA_PALMA_ARCGIS_ONLINE](https://www.arcgis.com/apps/dashboards/f1946c760ee34d2a9dd63442c593cfdb)
 - 🗺️ [Repositorio Mapas](https://udistritaleduco-my.sharepoint.com/personal/amtocoraj_udistrital_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Famtocoraj%5Fudistrital%5Fedu%5Fco%2FDocuments%2FSALIDAS%5FGR%C3%81FICAS%5FMETODOLOG%C3%8DA%5FMAPEO%5FM%C3%93VIL%5FINVENTARIO%5FVIAL%5FRURAL&ga=1)
+- 📃 [Resolución 412 de 2020 MinTransporte](https://mintransporte.gov.co/loader.phplServicio=Tools2&lTipo=descargas&lFuncion=visorpdf&file=https%3A%2F%2Fmintransporte.gov.co%2Floader.php%3FlServicio%3DTools2%26lTipo%3Ddescargas%26lFuncion%3DexposeDocument%26idFile%3D23352%26tmp%3Da02c0c3e1d842037513c61b7acafbe1d%26urlDeleteFunction%3Dhttps%253A%252F%252Fmintransporte.gov.co%252Floader.php%253FlServicio%253DTools2%2526lTipo%253Ddescargas%2526lFuncion%253DdeleteTemporalFile%2526tmp%253Da02c0c3e1d842037513c61b7acafbe1d&pdf=1&tmp=a02c0c3e1d842037513c61b7acafbe1d&fileItem=23352)
 
 ---
 
