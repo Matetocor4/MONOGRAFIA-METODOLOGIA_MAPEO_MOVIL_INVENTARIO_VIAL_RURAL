@@ -4,7 +4,11 @@
 ![ArcGIS](https://img.shields.io/badge/ArcGIS_Pro-2C7AC3?style=for-the-badge&logo=arcgis&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-> Sistema de bajo costo para inventario georreferenciado de vías terciarias mediante GNSS-RTK + Video 4K
+
+<img width="880" height="1184" alt="2nJOjAZGrzPVdl8y12-bb" src="https://github.com/user-attachments/assets/c2a98dc7-014b-4343-9da4-966bc09dacfa" />
+
+
+> Sistema de bajo costo para inventario georreferenciado de vías terciarias mediante GNSS-N-TRIP + Video 4K
 
 ---
 
@@ -16,7 +20,7 @@
 - **114.5 km** inventariados en **39 días**
 - **416 propiedades** viales caracterizadas
 - **106 obras de drenaje** + **34 sitios críticos** georreferenciados
-- **Precisión**: ±1m horizontal, cumple Resolución 412/2020
+- **Precisión**: ±1m horizontal, cumple Resolución 412/2020 del Ministerio de Transporte 
 
 ---
 
@@ -78,27 +82,6 @@ Colombia tiene **142,284 km** de vías terciarias (68% de la red nacional):
 
 ---
 
-## 💻 Scripts Python - Automatización
-
-### Superposición de Capas
-```python
-def shiftCoordinates(shape, x_new, y_new):
-    """Alinea capa PROPIEDADES sobre EJES"""
-    point = shape.getPart(0)
-    return arcpy.Point(point.X + x_new, point.Y + y_new)
-```
-
-### Cálculo de Pendiente
-```python
-import math
-
-def calculate_slope_degrees(z_diff, horiz_dist):
-    """Pendiente en grados (Resolución 412/2020)"""
-    slope_percent = (z_diff / horiz_dist) * 100
-    return round(math.degrees(math.atan(slope_percent / 100)), 2)
-```
-
----
 
 ## 📊 Resultados Cuantitativos
 
@@ -119,18 +102,6 @@ def calculate_slope_degrees(z_diff, horiz_dist):
 
 ---
 
-## 🗺️ Productos Entregables
-
-- ✅ **8 capas Shapefile** (SINC V5 compliant)
-- ✅ **Geodatabase ArcGIS** (relaciones, dominios, topología)
-- ✅ **5 mapas temáticos** PDF (red vial, sitios críticos, drenajes, infraestructura, dashboard)
-- ✅ **Dashboard web** interactivo (ArcGIS Online)
-- ✅ **Monografía académica** 74 páginas
-- ✅ **Scripts Python** automatización
-- ✅ **Metadata ISO 19115**
-
----
-
 ## 📁 Estructura del Proyecto
 
 ```
@@ -138,7 +109,6 @@ mobile-mapping-rural-roads/
 │
 ├── data/
 │   ├── shapefiles/              # 8 capas SINC
-│   └── geodatabase/             # GDB consolidada
 │
 ├── maps/
 │   ├── RED_VIAL_GENERAL.pdf
@@ -198,8 +168,8 @@ mobile-mapping-rural-roads/
 **Autores:** Aarón Mateo Tocora Jiménez, Cristián David Espíndola Rincón  
 **Director:** Ing. Wilmar Darío Fernández Gómez  
 **Institución:** Universidad Distrital Francisco José de Caldas  
-**Grupo:** Infraestructura Sostenible  
-📅 Septiembre 2025 | 📍 Bogotá, Colombia
+**Grupo de investigación:** Infraestructura Sostenible  
+📍 Bogotá, Colombia
 
 ---
 
@@ -207,8 +177,8 @@ mobile-mapping-rural-roads/
 
 - 📄 [Monografía Completa (74 pág.)](docs/MONOGRAFIA_74pag.pdf)
 - 🎤 [Presentación Gamma](https://gamma.app/docs/Metodologia-de-Mapeo-Movil-para-Inventario-Vial-Rural-1msd8n0fjkpzld4?mode=doc)
-- 🌐 [Dashboard Interactivo](DASHBOARD_LA_PALMA_ARCGIS_ONLINE)
-- 🗺️ [Repositorio Mapas](anexos/SALIDAS_GRAFICAS)
+- 🌐 [Dashboard Interactivo]([DASHBOARD_LA_PALMA_ARCGIS_ONLINE](https://www.arcgis.com/apps/dashboards/f1946c760ee34d2a9dd63442c593cfdb))
+- 🗺️ [Repositorio Mapas](https://udistritaleduco-my.sharepoint.com/personal/amtocoraj_udistrital_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Famtocoraj%5Fudistrital%5Fedu%5Fco%2FDocuments%2FSALIDAS%5FGR%C3%81FICAS%5FMETODOLOG%C3%8DA%5FMAPEO%5FM%C3%93VIL%5FINVENTARIO%5FVIAL%5FRURAL&ga=1)
 
 ---
 
@@ -221,7 +191,7 @@ mobile-mapping-rural-roads/
 
 ## 🙏 Agradecimientos
 
-Alcaldía de La Palma, Cundinamarca | Universidad Distrital | Comunidades rurales
+Alcaldía de La Palma, Cundinamarca | Universidad Distrital Franciso José de Caldas | Comunidades rurales | Ing. Wilmar Fernández
 
 ---
 
