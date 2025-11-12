@@ -175,8 +175,7 @@ mobile-mapping-rural-roads/
 
 ## 📖 Documentación
 
-- 📄 [Monografía Completa (74 pág.)](docs/MONOGRAFIA_74pag.pdf)
-- 🎤 [Presentación Gamma](https://gamma.app/docs/Metodologia-de-Mapeo-Movil-para-Inventario-Vial-Rural-1msd8n0fjkpzld4?mode=doc)
+- 🎤 [Presentación](https://gamma.app/docs/Metodologia-de-Mapeo-Movil-para-Inventario-Vial-Rural-1msd8n0fjkpzld4?mode=doc)
 - 🌐 [Dashboard Interactivo]([DASHBOARD_LA_PALMA_ARCGIS_ONLINE](https://www.arcgis.com/apps/dashboards/f1946c760ee34d2a9dd63442c593cfdb))
 - 🗺️ [Repositorio Mapas](https://udistritaleduco-my.sharepoint.com/personal/amtocoraj_udistrital_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Famtocoraj%5Fudistrital%5Fedu%5Fco%2FDocuments%2FSALIDAS%5FGR%C3%81FICAS%5FMETODOLOG%C3%8DA%5FMAPEO%5FM%C3%93VIL%5FINVENTARIO%5FVIAL%5FRURAL&ga=1)
 
